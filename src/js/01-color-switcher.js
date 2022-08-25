@@ -1,12 +1,11 @@
 const bodyEl = document.body;
 const btnStart = document.querySelector('button[data-start]');
 const btnStop = document.querySelector('button[data-stop]');
-
-console.log(btnStart);
-console.log(btnStop);
+let timerId = 0;
 
 btnStart.addEventListener('click', onStartButtonClick);
 btnStop.addEventListener('click', onStopButtonClick);
+
 function onStartButtonClick() {
   if (btnStart.classList.contains('.is-active')) {
     return;
