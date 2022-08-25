@@ -1,2 +1,0 @@
-const t=document.body,e=document.querySelector("button[data-start]"),o=document.querySelector("button[data-stop]");console.log(e),console.log(o),e.addEventListener("click",(function(){if(e.classList.contains(".is-active"))return;timerId=setInterval((()=>{t.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16)}`}),1e3),e.classList.add(".is-active")})),o.addEventListener("click",(function(){clearInterval(timerId),e.classList.remove(".is-active")}));
-//# sourceMappingURL=01-color-switcher.3b247843.js.map
