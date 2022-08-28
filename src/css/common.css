@@ -16,3 +16,14 @@ img {
   display: block;
   max-width: 100%;
 }
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.timer {
+  display: flex;
+  margin-top: 15px;
+}
